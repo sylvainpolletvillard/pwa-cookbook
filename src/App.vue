@@ -1,28 +1,43 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="page-container md-layout-row">
+    <md-app>
+      <md-app-toolbar class="md-primary">
+        <main-header @toggleMenu="menuVisible = !menuVisible"></main-header>
+      </md-app-toolbar>
+
+      <md-app-drawer md-persistent="full" :md-active.sync="menuVisible">
+        <side-nav></side-nav>
+      </md-app-drawer>
+
+      <md-app-content>
+        <router-view></router-view>
+      </md-app-content>
+    </md-app>
   </div>
 </template>
 
+<style lang="postcss" src="./style/main.pcss"></style>
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainHeader from "./components/MainHeader.vue";
+import SideNav from "./components/SideNav.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    MainHeader,
+    SideNav
+  },
+  data() {
+    return {
+      menuVisible: true
+    };
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="postcss">
+.md-app {
+  height: 100vh;
 }
 </style>
