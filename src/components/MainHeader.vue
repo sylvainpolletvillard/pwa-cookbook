@@ -68,4 +68,10 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
+.md-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: calc(100vw - 240px);
+}
 </style>

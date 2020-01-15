@@ -15,6 +15,7 @@
             :key="section.title"
             class="md-inset"
             :to="'/'+section.link"
+            @click="$emit('pageChanged')"
           >{{ section.title }}</md-list-item>
         </md-list>
       </md-list-item>

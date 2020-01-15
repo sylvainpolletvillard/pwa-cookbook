@@ -6,7 +6,7 @@
       </md-app-toolbar>
 
       <md-app-drawer md-persistent="full" :md-active.sync="menuVisible">
-        <side-nav></side-nav>
+        <side-nav @pageChanged="menuVisible = false"></side-nav>
       </md-app-drawer>
 
       <md-app-content>
