@@ -11,6 +11,7 @@ import { directive as onClickaway } from 'vue-clickaway';
 import App from "./App"
 import { router } from "./routes"
 import { localStore } from "./utils/store";
+import './registerServiceWorker'
 
 Vue.use(VueRouter);
 Vue.use(VueI18n);
