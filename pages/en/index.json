@@ -1,0 +1,129 @@
+{
+	"chapters": [
+		{
+			"title": "Introduction",
+			"sections": [
+				{
+					"title": "About this cookbook",
+					"link": "a-propos",
+					"keywords": "support;authors;about;help;question;source;info"
+				},
+				{
+					"title": "What is a PWA",
+					"link": "pwa",
+					"keywords": "pwa;progressive;webapp;kesako;what;intro;concept"
+				},
+				{
+					"title": "Examples of PWA",
+					"link": "examples",
+					"keywords": "pwa;exemples;demo;client;poc;test;try;show"
+				}
+			]
+		},
+		{
+			"title": "Methodology",
+			"sections": [
+				{
+					"title": "Progressive Enhancement",
+					"link": "progressive-enhancement",
+					"keywords": "progressive;enhancement;method;approach;strategy"
+				},
+				{
+					"title": "Optimistic UI",
+					"link": "optimistic-ui",
+					"keywords": "optimi;timeout;latency;network;request;AJAX;state;method"
+				},
+				{
+					"title": "Network Management Layer",
+					"link": "network-management",
+					"keywords": "network;cache;request;AJAX;approach;strategy;offline;management;layer"
+				}
+			]
+		},
+		{
+			"title": "Connectivity",
+			"sections": [
+				{
+					"title": "Offline Usage and Service Workers",
+					"link": "service-workers",
+					"keywords": "offline;usage;service;workers;disconnect;background;mode;connexion"
+				},
+				{
+					"title": "Network Caching Strategies",
+					"link": "network-strategies",
+					"keywords": "service;workers;disconnect;update;cache;refresh;strategy;caching;network"
+				},
+				{
+					"title": "Client-side Data Caches",
+					"link": "data-cache",
+					"keywords": "optimi;cache;storage;client;save;data;local;indexed;database"
+				},
+				{
+					"title": "Request Errors Management",
+					"link": "error-management",
+					"keywords": "error;fail;availab;request;response;offline;lie-fi;strategy;network"
+				}
+			]
+		},
+		{
+			"title": "User Engagement",
+			"sections": [
+				{
+					"title": "Platform Integration",
+					"link": "integration",
+					"keywords": "integrat;mobile;application;install;notif;engagement;advert;store;platform"
+				},
+				{
+					"title": "Web App Manifest",
+					"link": "manifest",
+					"keywords": "manifest;search;engine;mobile;engagement;meta;file"
+				},
+				{
+					"title": "Search Engine Optimisation",
+					"link": "seo",
+					"keywords": "seo;search;engine;link;optimi;google"
+				},
+				{
+					"title": "Push Notifications",
+					"link": "push-notifications",
+					"keywords": "notif;push;engagement;advert;native;server"
+				}
+			]
+		},
+		{
+			"title": "Optimisation",
+			"sections": [
+				{
+					"title": "Webpack Bundles Optimisation",
+					"link": "optimisation-bundle",
+					"keywords": "optimi;reduce;bundle;packet;build;webpack;load;perf;size;heavy;minif;speed"
+				},
+				{
+					"title": "Transpilation Target with browserslist",
+					"link": "browserslist",
+					"keywords": "transpil;compil;target;tool;build;optimi;browser;reduce;size"
+				}
+			]
+		},
+		{
+			"title": "Frameworks and Tooling",
+			"sections": [
+				{
+					"title": "PWA and Frameworks",
+					"link": "frameworks",
+					"keywords": "framework;template;starter;boilerplate;library;react;vue;angular"
+				},
+				{
+					"title": "PWA Checklist",
+					"link": "checklist",
+					"keywords": "check;list;criteria;constraint;todo;instructions;requirement;need;audit"
+				},
+				{
+					"title": "Quality Audit Tools",
+					"link": "audit-tools",
+					"keywords": "tool;audit;check;control;lighthouse;quality"
+				}
+			]
+		}
+	]
+}
