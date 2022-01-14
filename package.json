@@ -9,7 +9,7 @@
 		"deploy": "node ./build/deploy.js"
 	},
 	"dependencies": {
-		"markdown-it": "^10.0.0",
+		"markdown-it": "^12.3.2",
 		"prismjs": "^1.25.0",
 		"register-service-worker": "^1.7.1",
 		"vue": "^2.6.11",
