@@ -30,7 +30,7 @@
 		"postcss-import": "^12.0.1",
 		"postcss-nested": "^4.2.1",
 		"postcss-simple-vars": "^5.0.2",
-		"shelljs": "^0.8.4",
+		"shelljs": "^0.8.5",
 		"vue-cli-plugin-i18n": "^1.0.1",
 		"vue-template-compiler": "^2.6.11"
 	},
