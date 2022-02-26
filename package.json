@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"markdown-it": "^12.3.2",
-		"prismjs": "^1.25.0",
+		"prismjs": "^1.27.0",
 		"register-service-worker": "^1.7.1",
 		"vue": "^2.6.11",
 		"vue-clickaway": "^2.1.0",
