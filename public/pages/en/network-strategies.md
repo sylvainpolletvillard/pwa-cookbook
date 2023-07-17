@@ -24,9 +24,14 @@ function fromCache(request) {
 }
 
 function updateCache(request) {
-    return caches.open(CACHE) // open the cache where the assets are stored
-    .then(cache => fetch(request)) // fetch the network
-    .then(response => cache.put(request, response)) // store response in cache
+  return caches
+    .open(CACHE) // open the cache where the assets are stored
+    .then((cache) =>
+      fetch(request).then((response) => {
+        cache.put(request, response); //  store response in cache
+        return response;
+      })
+    );
 }
  ```
 
