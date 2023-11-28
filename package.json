@@ -9,30 +9,25 @@
 		"deploy": "node ./build/deploy.js"
 	},
 	"dependencies": {
-		"markdown-it": "^12.3.2",
-		"prismjs": "^1.27.0",
-		"register-service-worker": "^1.7.1",
-		"vue": "^2.6.11",
+		"markdown-it": "^13.0.0",
+		"prismjs": "^1.29.0",
+		"register-service-worker": "^1.7.2",
+		"vue": "^2.7.14",
 		"vue-clickaway": "^2.1.0",
 		"vue-i18n": "^8.17.4",
-		"vue-material": "^1.0.0-beta-13",
+		"vue-material": "^1.0.0-beta-16",
 		"vue-router": "^3.1.6"
 	},
 	"devDependencies": {
 		"@intlify/vue-i18n-loader": "^1.0.0",
-		"@vue/cli-plugin-babel": "^5.0.8",
-		"@vue/cli-plugin-eslint": "^5.0.8",
 		"@vue/cli-plugin-pwa": "^5.0.8",
 		"@vue/cli-service": "^5.0.8",
-		"babel-eslint": "^10.1.0",
-		"eslint": "^7.0.0",
-		"eslint-plugin-vue": "^6.2.2",
-		"postcss-import": "^12.0.1",
+		"postcss-import": "^13.0.0",
 		"postcss-nested": "^4.2.1",
-		"postcss-simple-vars": "^5.0.2",
+		"postcss-simple-vars": "^7.0.1",
 		"shelljs": "^0.8.5",
 		"vue-cli-plugin-i18n": "^2.3.2",
-		"vue-template-compiler": "^2.6.11"
+		"vue-template-compiler": "^2.7.15"
 	},
 	"eslintConfig": {
 		"root": true,
