@@ -29,22 +29,6 @@
 		"vue-cli-plugin-i18n": "^2.3.2",
 		"vue-template-compiler": "^2.7.15"
 	},
-	"eslintConfig": {
-		"root": true,
-		"env": {
-			"node": true
-		},
-		"extends": [
-			"plugin:vue/essential",
-			"eslint:recommended"
-		],
-		"rules": {
-			"no-console": 0
-		},
-		"parserOptions": {
-			"parser": "babel-eslint"
-		}
-	},
 	"postcss": {
 		"plugins": {
 			"postcss-import": {},
