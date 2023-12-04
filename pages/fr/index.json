@@ -1,0 +1,129 @@
+{
+	"chapters": [
+		{
+			"title": "Introduction",
+			"sections": [
+				{
+					"title": "A propos de ce cookbook",
+					"link": "a-propos",
+					"keywords": "support;auteurs;a propos;aide;question;source;info"
+				},
+				{
+					"title": "Qu'est-ce qu'une PWA ?",
+					"link": "pwa",
+					"keywords": "pwa;progressive;webapp;kesako;quoi;intro;concept"
+				},
+				{
+					"title": "Exemples de PWA",
+					"link": "examples",
+					"keywords": "pwa;exemples;démo;client;poc;test;essayer"
+				}
+			]
+		},
+		{
+			"title": "Méthodologie",
+			"sections": [
+				{
+					"title": "Amélioration Progressive",
+					"link": "progressive-enhancement",
+					"keywords": "progressive;démarche;approche;stratégie;amélioration"
+				},
+				{
+					"title": "Compensation de latence",
+					"link": "optimistic-ui",
+					"keywords": "optimis;timeout;latence;réseau;requête;AJAX;state;méthodo"
+				},
+				{
+					"title": "Couche de gestion de réseau",
+					"link": "network-management",
+					"keywords": "réseau;network;cache;requête;AJAX;approche;stratégie;offline;hors-ligne"
+				}
+			]
+		},
+		{
+			"title": "Connectivité",
+			"sections": [
+				{
+					"title": "Usage hors-ligne et Service Workers",
+					"link": "service-workers",
+					"keywords": "offline;hors-ligne;service;workers;déconnecté;background;mode;connexion"
+				},
+				{
+					"title": "Stratégies de cache réseau",
+					"link": "network-strategies",
+					"keywords": "service;workers;déconnecté;update;maj;cache;à jour;stratégie;gestion;réseau;network"
+				},
+				{
+					"title": "Caches de données côté client",
+					"link": "data-cache",
+					"keywords": "optimiser;économiser;cache;storage;stockage;client;enregistrer;data;donnée"
+				},
+				{
+					"title": "Gestion des requêtes en échec",
+					"link": "error-management",
+					"keywords": "échec;indispo;requête;réponse;offline;lie-fi;erreur;fail;stratégie;network;réseau"
+				}
+			]
+		},
+		{
+			"title": "Engagement utilisateur",
+			"sections": [
+				{
+					"title": "Intégration avec les plates-formes",
+					"link": "integration",
+					"keywords": "intégration;mobile;application;installation;notification;engagement;publicité;store;plate-forme"
+				},
+				{
+					"title": "Manifeste Web App",
+					"link": "manifest",
+					"keywords": "manifeste;recherche;référencement;mobile;engagement;méta"
+				},
+				{
+					"title": "SEO: Optimiser le référencement",
+					"link": "seo",
+					"keywords": "seo;recherche;indexation;moteur;lien;référencement;google"
+				},
+				{
+					"title": "Notifications Push",
+					"link": "push-notifications",
+					"keywords": "notification;push;engagement;publicité;natif"
+				}
+			]
+		},
+		{
+			"title": "Optimisation",
+			"sections": [
+				{
+					"title": "Générer des bundles avec Webpack",
+					"link": "optimisation-bundle",
+					"keywords": "optimiser;réduire;bundle;paquet;webpack;charge;perf;taille;lourd;minif;débit"
+				},
+				{
+					"title": "Transpilation ciblée avec browserslist",
+					"link": "browserslist",
+					"keywords": "transpil;outils;build;optimiser;browser;navigateur;réduire;taille"
+				}
+			]
+		},
+		{
+			"title": "Outillage et frameworks",
+			"sections": [
+				{
+					"title": "PWA et Frameworks",
+					"link": "frameworks",
+					"keywords": "framework;template;starter;boilerplate;librairie;bibliothèque;react;vue;angular"
+				},
+				{
+					"title": "Check-list d'une PWA",
+					"link": "checklist",
+					"keywords": "checklist;liste;critères;contraintes;consignes;requirements;obligations;besoins:exigences"
+				},
+				{
+					"title": "Outillage d'audit qualité",
+					"link": "audit-tools",
+					"keywords": "outillage;outils;audit;vérifier;contrôler;lighthouse;qualité"
+				}
+			]
+		}
+	]
+}
